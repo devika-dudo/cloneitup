@@ -1,0 +1,36 @@
+html, body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.side-bar{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 6%;
+    background-color: #1c1c1c;
+    height: 100vh;
+}
+.side-bar ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.side-bar button {
+    background-color: #1c1c1c;
+    border: none;
+    padding: 10px;
+    outline: none;
+}
